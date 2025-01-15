@@ -1,0 +1,49 @@
+.box_container {
+  display: flex;
+  position: absolute;
+  bottom: 40px;  
+  margin-right: 40px;    
+  transform: translateX(10%);  
+  align-items: flex-end;  
+  gap: 60px;            
+}
+
+.box {
+  width: 650px; 
+  height: 700px; 
+  background-color: white;
+}
+.image{
+  /*임시로 이미지 사용해서 확인하는 용도 */
+}
+.arow_btnl {
+  background: none;
+  color: white;
+  font-size: 50px; 
+  cursor: pointer;
+  margin-right: 10px; 
+  padding: 10px;
+}
+
+.arow_btnr {
+  background: none;
+  color: white;
+  font-size: 50px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.restart_btn{
+  background-color: #fd312e;
+  color: white;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  position: fixed;   
+  right: 0;          
+  bottom: 0;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;        
+}
+
