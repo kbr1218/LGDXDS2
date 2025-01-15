@@ -57,7 +57,7 @@ const Chatbot = () => {
     <div className="chatbox">
       <div className="chatname">
         <img src="/images/robot.png" alt="챗봇 로고" className="bot_img" />
-        Bot Bot Bot
+        Vision_Bot
       </div>
       <div className="contain" ref={messagesContainerRef}>
         {messages.map((msg, index) => (
