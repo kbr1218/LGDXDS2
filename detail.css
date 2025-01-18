@@ -1,48 +1,52 @@
 .m_container {
-    position: fixed;
-    left: 30%; 
-    color: white;
-    padding: 20px;
-    border-radius: 10px;
-    font-family: Arial, sans-serif;
-    top: 10px;
-  }
-  
-  .title {
-    font-size: 150px;
-    font-weight: bold;
-    
-  }
-  
-  .smry{
-    font-size: 100px;
-  }
+  position: fixed;
+  left: 38%;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  top: 10px;
+  width: 100%;
+  z-index: 2;
+}
 
-  .infos{
-    font-size: 50px;
-    margin-bottom: 50px;
-  }
+.name {
+  font-size: 2vw;
+  font-weight: bold;
+}
 
-  .year, .gamdok, .actors, .uage, .score, .genre {
-    margin-bottom: 50px;
-  }
+.overview {
+  font-size: 1vw;
+  max-width: 40%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  line-height: 1.5;
   
-  .eximg {
-    position: absolute;
-    top: 50%; 
-    right: 10%;  
-    margin-right: 30px;  
-  }
+}
 
-  .watch_btn{
-    background-color: #fd312e;
-    font-size: 100px;
-    border-radius: 40px;
-    color: white; 
-    padding: 20px 35px; 
-    text-align: center; 
-    display: inline-block; 
-    cursor: pointer; 
-    width: auto; 
-    margin-top: 20px;
-  }
+.info_box {
+  margin-top: 10%;
+  display: flex;
+}
+
+.group, .group2 {
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  font-size: 2vh;
+}
+
+.watch_btn {
+  position: fixed;
+  background-color: #fd312e;
+  color: white;
+  font-size: 3vh;
+  border-radius: 30px;
+  padding: 30px 40px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  width: auto;
+  margin-top: 1vh;
+  margin-left:2vh;
+}
