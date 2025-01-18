@@ -38,5 +38,5 @@ const moviecmd = () => {
     </>
   );
 };
-
 export default moviecmd;
+
