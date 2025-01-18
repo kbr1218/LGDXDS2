@@ -1,9 +1,22 @@
-.container{
-  display:flex;
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
 }
 
-.chats_part{
+.chats_part {
+  flex: 0 0 1620px; 
+  height: 100%; 
+  margin-left: 20px; 
 }
-.movie_part {
 
+.movie_part,
+.detail_part,
+.moimg_part {
+  flex: 1; 
+  height: 100%; 
+}
+.detail_part {
+}
+.moimg_part {
 }
