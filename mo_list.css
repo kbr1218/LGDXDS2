@@ -1,19 +1,70 @@
-.backdrop_path {
-  position: fixed; 
-  top: 0;
-  right: 0;  
-  width: 67%;  
-  height: 100vh;
-  background-image: url('/images/peaky.jpg');  
-  background-size: cover;  
-  z-index: 0;  
-  opacity: 0.5;  
+.box_container {
+  display: flex;
+  position: absolute;  
+  bottom: 2vh; 
+  align-items: flex-end;
+  gap: 6.5vh;
+  z-index: 1;
+  transform: translateX(10%);
+  right: 15%;
 }
 
-.poster_path {
+.box {
+  width: 17vh;
+  height: 24vh;
+  background-color: white;
+  position: relative;
+}
+
+.num {
+  position: absolute;
+  top: -2vh;
+  left: -20%;
+  font-size: 5vh;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+
+.image {
+  width: 16vh;
+  height: 23vh;
+  object-fit: cover;
+  margin: 12px;
+}
+
+.arow_btnl, .arow_btnr {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 2;
+  position: absolute;
+  font-size: 8vh; 
+  bottom:2%; 
+  transform: translateY(-20%); 
+}
+
+.arow_btnl {
+left:28%
+}
+
+.arow_btnr {
+  right: 1%;
+}
+
+
+.restart_btn {
   position: fixed;
-  top: 34%;  
-  z-index: 1;  
-  width: 5vh ;
-  height: 30vh;  
+  background-color: #fd312e;
+  color: white;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  right: 1%;
+  bottom: 12%;
+  margin-right: 1vh;
+  border-radius: 10px;
+  z-index: 1;
 }
